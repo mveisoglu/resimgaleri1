@@ -1,0 +1,41 @@
+body{
+  background-color: white;
+  color: black;
+}
+
+body.dark{
+  background-color: black;
+  color: white;
+  
+}
+
+
+.navbar-brand{
+  font-size: 1.8rem;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+padding: 1%;
+}
+.col-lg-3{
+  padding: 0;
+}
+.footer{
+  background-color: #f2cc8f;
+  padding: 2% 0;
+}
+.mode-control input{
+  position: absolute;
+  opacity: 0;
+}
+.mode-control span:nth-of-type(2){
+display: none;
+}
+.mode-control input:checked+span{
+  display: none;
+}
+.mode-control input:checked+span+span{
+  display: inline-block;
+}
